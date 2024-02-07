@@ -78,6 +78,7 @@ img {
 ------------*/
 
 footer {
+    overflow: hidden;
     height: 70px;
     background-color: #222222;
 }
