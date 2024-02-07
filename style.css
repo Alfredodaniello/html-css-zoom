@@ -1,0 +1,64 @@
+/*------------
+    RESET
+------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------
+   HEADER
+------------*/
+
+header {
+    height: 25px;
+    background-color: #000000;
+}
+
+/*------------
+    MAIN
+------------*/
+
+main {
+    overflow: auto;
+    padding-top: 20px;
+    background-color: #000000;
+    height: calc(100vh - 95px);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.window {
+    width: 193px;
+    position: relative;
+}
+
+img {
+    width: 99%;
+}
+
+.tag {
+    padding: 2px 0px;
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    background-color: #61717e;
+    color: white;
+}
+
+/*------------
+    FOOTER
+------------*/
+
+footer {
+    height: 70px;
+    background-color: #222222;
+}
+
