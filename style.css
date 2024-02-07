@@ -82,3 +82,43 @@ footer {
     background-color: #222222;
 }
 
+.icons {
+    display: flex;
+    justify-content: space-between; 
+}
+footer button {
+    padding-top: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: #222222;
+    border: none;
+}
+
+.fa-share-from-square {
+    color: #4bc800;
+}
+
+footer i {
+    font-size: 25px;
+}
+
+.fa-angle-up {
+    line-height: 34px;
+    font-size: 10px;
+}
+
+.buttons{
+    font-size: 12px;
+}
+
+#end-button {
+    color: red;
+    height: 70px;
+    line-height: 70px;
+    padding: 0px 20px;
+    background-color: #4a4a4a;
+}
+
+#mic {
+    padding-left: 10px;
+}
